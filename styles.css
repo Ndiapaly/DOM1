@@ -1,0 +1,54 @@
+*{
+
+}
+
+body{
+
+}
+/*on stylise .container*/
+
+.container{
+    margin-top: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* on stylise id colorbox */
+
+#color-box {
+    width: 500px;
+    height: 400px;
+    background-color: #ff0000; /* Default color */
+    transition: background-color 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 490px;
+    margin-right: 0;
+}
+
+/* on stylise id change-color-btn */
+
+#change-color-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 685px;
+    margin-right: 0;
+}
+
+#change-color-btn:hover{
+    background-color: #a29f9f;
+    
+    
+}
+
